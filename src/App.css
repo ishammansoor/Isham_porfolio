@@ -1,0 +1,130 @@
+html,
+body,
+#root {
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  background-color: #212121;
+}
+
+.container {
+  height: 100%;
+  background-color: #212121
+}
+
+.sidebar {
+  height: 100%;
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.information {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+  height: 100%;
+}
+
+.home-box-inner {
+  height: 400px;
+  width: 400px;
+  text-decoration: none;
+  border-radius: 34px;
+  background: #212121;
+  box-shadow: inset 14px 14px 43px #0d0d0d,
+    inset -14px -14px 43px #353535;
+}
+
+.home-box-outer {
+  text-decoration: none;
+  width: 400px;
+  height: 400px;
+  border-radius: 12px;
+  background: linear-gradient(145deg, #232323, #1e1e1e);
+  box-shadow: 14px 14px 28px #191717,
+    -14px -14px 28px #333;
+}
+
+.smaller {
+  height: 200px;
+}
+
+.home-box-outer:hover {
+  border-radius: 34px;
+  background: #212121;
+  box-shadow: inset 14px 14px 43px #0d0d0d,
+    inset -14px -14px 43px #333;
+}
+
+.button {
+  padding: 20px;
+  border-radius: 50px;
+  background: #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: -5px -5px 15px #3e3e3e, 5px 5px 15px #222, inset 5px 5px 10px #3e3e3e,
+    inset -5px -5px 10px #222;
+  cursor: pointer;
+  border: none;
+  font-size: 16px;
+  color: rgb(161, 161, 161);
+  transition: 500ms;
+}
+
+.button:hover {
+  box-shadow: -5px -5px 15px #3e3e3e, 5px 5px 15px #222, inset 5px 5px 10px #222,
+    inset -5px -5px 10px #3e3e3e;
+  color: #d6d6d6;
+  transition: 500ms;
+}
+
+/* html,
+body,
+#root {
+  height: 100%;
+  margin: 0;
+}
+
+.container {
+  height: 100%;
+  background-color: #a2aaa8
+}
+
+
+
+.home-box-inner {
+  height: 400px;
+  width: 400px;
+  text-decoration: none;
+  border-radius: 34px;
+  background: #a2aaa8;
+  box-shadow: inset 13px 13px 65px #616665,
+    inset -13px -13px 65px #e3eeeb;
+}
+
+.home-box-outer {
+  text-decoration: none;
+  width: 400px;
+  height: 400px;
+  border-radius: 12px;
+  background: linear-gradient(145deg, #adb6b4, #929997);
+  box-shadow: 13px 13px 65px #616665,
+    -13px -13px 65px #e3eeeb;
+  transition: border-radius ease-out 1s;
+}
+
+.smaller {
+  height: 200px;
+}
+
+.home-box-outer:hover {
+  border-radius: 34px;
+  background: #a2aaa8;
+  box-shadow: inset 13px 13px 65px #616665,
+    inset -13px -13px 65px #e3eeeb;
+} */

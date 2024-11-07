@@ -1,0 +1,32 @@
+.sideBar {
+    border-radius: 34px;
+    background: #212121;
+    box-shadow: inset 25px 25px 31px #141414,
+        inset -25px -25px 31px #2e2e2e;
+    padding: 30px;
+}
+
+.button_new {
+  padding: 20px;
+  border-radius: 50px;
+  background: #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: -5px -5px 15px #3e3e3e, 5px 5px 15px #222, inset 5px 5px 10px #3e3e3e,
+    inset -5px -5px 10px #222;
+  cursor: pointer;
+  border: none;
+  font-size: 16px;
+  color: rgb(161, 161, 161);
+  transform: rotate(90deg);
+  transition: 500ms;
+}
+
+.button_new:hover {
+  box-shadow: -5px -5px 15px #3e3e3e, 5px 5px 15px #222, inset 5px 5px 10px #222,
+    inset -5px -5px 10px #3e3e3e;
+  color: #d6d6d6;
+  transform: rotate(0deg);
+  transition: 500ms;
+}
